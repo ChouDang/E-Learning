@@ -21,7 +21,7 @@ const QuanLyNguoiDungReducer = createSlice({
   }
 });
 
-export const { dangNhap, dangKi } = QuanLyNguoiDungReducer.actions
+export const { userLogin, userRegister } = QuanLyNguoiDungReducer.actions
 
 export default QuanLyNguoiDungReducer.reducer
 
