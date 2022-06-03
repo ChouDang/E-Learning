@@ -18,8 +18,6 @@ const QuanLyKhoaHocReducer = createSlice({
     getCourseList: (state, action) => {
       state.getCourseList = action.getCourseList
     }
-
-
   }
 });
 
@@ -27,4 +25,3 @@ export const { getCourseCatalog, getCourseList } = QuanLyKhoaHocReducer.actions
 
 export default QuanLyKhoaHocReducer.reducer
 
-// action thunk

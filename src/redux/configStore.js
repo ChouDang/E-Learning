@@ -6,8 +6,6 @@ export const store = configureStore({
   reducer: {
     QuanLyNguoiDungReducer,
     QuanLyKhoaHocReducer
-
-
   }
 });
 

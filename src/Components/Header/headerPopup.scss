@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+}
+
+.headerPopup {
+  background-color: #8ed1dc;
+  color: #003640;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  .title {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .cross {
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cross:hover {
+    cursor: pointer;
+  }
+  .popupClearIcon {
+    transform: scale(0.8);
+  }
+  .hide {
+    display: none;
+  }
+}
