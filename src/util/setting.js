@@ -24,6 +24,24 @@ http.interceptors.request.use((config) => {
   return Promise.reject(error)
 })
 
+
+http.interceptors.response.use(
+  (response) =>{
+    // Xử lý kết quả trả về từ server
+    return response
+     
+  },
+  // Xử lý nếu kết quả trả về bị lỗi
+  (error) =>{
+    if(error.status === 401){
+      // Xử lý log out: clear Storage, đẩy người dùng vào trang login
+      
+    }
+    return Promise.reject(error)
+  }
+)
+
+
 // config cookie
 export function setCookie(name, value, days) {
   var expires = "";

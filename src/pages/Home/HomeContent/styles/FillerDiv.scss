@@ -21,6 +21,7 @@
   h2 {
     font-size: 34px;
     margin-bottom: 12px;
+    color:#5b5dc7;
   }
   p {
     font-size: 19px;
@@ -30,8 +31,12 @@
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
-    padding: 13px 13px;
+    height: 48px;
+    width: 132px;
     cursor: pointer;
     background-color: #0f7c90;
+  }
+  .getstartedButton:hover {
+    background-color: #094c59;
   }
 }

@@ -9,7 +9,7 @@ export const HeaderPrimary = () => {
       <div className="headerPrimary">
         <div className="left part">
           <div className="udemyLogo">
-            <img src="..//logo.jpg" className="logo" alt="logo"></img>
+            <img src="..//logoTNT.png" className="logo" alt="logo"></img>
           </div>
           <div className="categoriesDiv">
             <h1 className="categories">Danh mục</h1>

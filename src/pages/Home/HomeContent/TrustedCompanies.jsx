@@ -3,7 +3,7 @@ import "./styles/TrustedCompanies.scss"
 export const TrustedCompanies = () => {
   return (
     <div className="trustedCompanies">
-      <h2 className="heading">Trusted by companies of all sizes</h2>
+      <h2 className="heading">Đối tác của các công ty thuộc mọi quy mô</h2>
       <div className="companiesLogos">
         <img
           alt="booking.com"

@@ -1,31 +1,35 @@
 import React from 'react'
-import { http } from '../../util/setting'
-import { getCourseCatalog, getCourseList } from '../reducers/QuanLyKhoaHocReducer'
+import coursesAPI from "../services/coursesAPI";
+import {GET_COURSES_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST} from '../actions/constants/KhoaHoc.jsx'
 // api số 2
-export const LayDanhMucKhoaHoc = () => {
-  return async dispatch => {
+export const LayDanhMucKhoaHoc = (category) => {
+   return async (dispatch) => {
+    dispatch({ type: GET_COURSES_REQUEST });
     try {
-      let result = await http.get("/api/QuanLyKhoaHoc/LayDanhMucKhoaHoc")
-      //Data trả về result.data.content
-      const action = getCourseCatalog(result.data.content)
-      dispatch(action)
+      const { data } = await coursesAPI.getCoursesByCategory(category);
+      dispatch({ type: GET_COURSES_SUCCESS, payload: { data } });
     } catch (error) {
-      console.log(error);
+      dispatch({
+        type: GET_COURSES_FAILURE,
+        payload: { error: error.response.data },
+      });
     }
-  }
+  };
 }
 // api số 1
-export const LayDanhSachKhoaHoc = () => {
-  return async dispatch => {
+export const LayDanhSachKhoaHoc = (listcource) => {
+ return async (dispatch) => {
+    dispatch({ type: GET_COURSES_REQUEST });
     try {
-      let result = await http.get("/api/QuanLyKhoaHoc/LayDanhSachKhoaHoc?MaNhom=GP01")
-      //Data trả về result.data.content
-      const action = getCourseList(result.data.content)
-      dispatch(action)
+      const { data } = await coursesAPI.getCourse(listcource);
+      dispatch({ type: GET_COURSES_SUCCESS, payload: { data } });
     } catch (error) {
-      console.log(error);
+      dispatch({
+        type: GET_COURSES_FAILURE,
+        payload: { error: error.response.data },
+      });
     }
-  }
+  };
 }
 
 

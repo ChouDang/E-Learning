@@ -17,10 +17,9 @@ export const VideoAdDiv = () => {
 
       </div>
       <div className="content">
-        <h2 className="heading">Transform your life through education</h2>
+        <h2 className="heading">Thay đổi cuộc sống của bạn thông qua giáo dục</h2>
         <p className="about">
-          Mohamad Alaloush launched a new career in software development by
-          taking courses on Udemy. What will you be able to do?
+          bắt đầu sự nghiệp phát triển phần mềm bằng cách tham gia các khóa học trên Udemy. Bạn sẽ có thể làm gì?
         </p>
       </div>
     </div>

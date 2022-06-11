@@ -6,31 +6,31 @@ const Footer = () => {
       <div className="upperDiv">
         <div className="linksContainer">
           <div className="linksDiv linksDiv1">
-            <p>Udemy for Business</p>
-            <p>Teach on Udemy</p>
-            <p>Get the app</p>
-            <p>About us</p>
-            <p>Contact us</p>
+            <p>Udemy cho Doanh nghiệp</p>
+            <p>Dạy trên Udemy</p>
+            <p>Tải ứng dụng</p>
+            <p>Thông tin</p>
+            <p>Liên hệ</p>
           </div>
           <div className="linksDiv linksDiv2">
-            <p>Careers</p>
+            <p>Nghề nghiệp</p>
             <p>Blog</p>
-            <p>Help and Support</p>
-            <p>Affliate</p>
+            <p>Hỗ trợ</p>
+            <p>Chi nhánh</p>
             <p> </p>
           </div>
           <div className="linksDiv linksDiv3">
-            <p>Terms</p>
-            <p>Privacy policy and cookie policy</p>
-            <p>Sitemap</p>
-            <p>Featured courses</p>
+            <p>Điều kiện</p>
+            <p>Chính sách quyền riêng tư</p>
+            <p>Sơ đồ trang web</p>
+            <p>Các khóa học nổi bật</p>
             <p> </p>
           </div>
         </div>
         {/* <div className="linksDiv linksDiv4"></div> */}
       </div>
       <div className="lowerDiv">
-        <img src="..//logo.jpg" className="udemyLogo" alt="logo"></img>
+        <img src="..//logoTNT.png" className="udemyLogo" alt="logo"></img>
         <div className="copyrightDiv">
           <p>© 2022 Udemy, Inc.</p>
         </div>

@@ -10,12 +10,11 @@ export const BecomeInstructor = () => {
         className="instructorImg"
       ></img>
       <div className="contentDiv">
-        <h2 className="heading">Become an instructor</h2>
+        <h2 className="heading">Trở thành người hướng dẫn chia sẽ kinh nghiệm của bạn</h2>
         <p className="about">
-          Top instructors from around the world teach millions of students on
-          Udemy. We provide the tools and skills to teach what you love.{" "}
+          Các giảng viên hàng đầu từ khắp nơi trên thế giới dạy hàng triệu sinh viên trên Udemy. Chúng tôi cung cấp các công cụ và kỹ năng để dạy những gì bạn yêu thích.{" "}
         </p>
-        <button className="startTeching button">Start teaching today</button>
+        <button className="startTeching button">Bắt đầu dạy hôm nay</button>
       </div>
     </div>
   )

@@ -11,8 +11,8 @@ const contentStyle = {
   height: '400px',
   textAlign: 'center',
 };
-let styleMain = {
-
+const styleMain = {
+  autoplaySpeed: 5000,
   dots: true,
   infinite: true,
   speed: 500,

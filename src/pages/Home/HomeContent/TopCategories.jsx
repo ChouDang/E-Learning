@@ -1,10 +1,13 @@
 import React from 'react'
 import { CategoryCard } from './CategoryCard'
 import "./styles/TopCategories.scss"
+
+
+
 export const TopCategories = () => {
   return (
     <div className="topCategories">
-      <h2 className="categoryHeading">Top Categories</h2>
+      <h2 className="categoryHeading">Danh mục hàng đầu</h2>
       <div className="categories">
         <CategoryCard
           imgSrc={

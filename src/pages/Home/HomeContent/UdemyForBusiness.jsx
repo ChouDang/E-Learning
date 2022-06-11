@@ -5,11 +5,11 @@ export const UdemyForBusiness = () => {
     <div className="udemyForBusiness">
       <div className="backgroundColorDiv"></div>
       <div className="contentDiv">
-        <h2 className="heading">Udemy for Business</h2>
+        <h2 className="heading">Dành cho Doanh Nghiệp</h2>
         <p className="about">
-          Get unlimited access to 4,000+ of Udemy's top courses for your team.
+          Nhận quyền truy cập không giới hạn vào hơn 4.000 khóa học hàng đầu của Udemy cho nhóm của bạn.
         </p>
-        <div className="startTeching button">Get Udemy for Business</div>
+        <div className="startTeching button">Đăng ký ngay</div>
       </div>
       <img
         src="https://s.udemycdn.com/home/non-student-cta/udlite-lohp-promo-ufb.jpg"
