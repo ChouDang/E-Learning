@@ -4,31 +4,31 @@ import "./styles/RecommendedVideos.scss"
 export const RecommendedVideos = () => {
   return (
     <div className="recommendedVideos">
-      < VideoCard courseTitle={"Microsoft Excel - Excel from Beginner to Advanced"}
-        imgSrc={"https://4.bp.blogspot.com/-qkTIHGWs7jM/W_E5EtIStFI/AAAAAAAAB3w/DF5U_N5YkC84CCvXs_c_KDKsw43q32-VQCLcBGAs/s1600/excel%2B2013.jpg"}
+      < VideoCard courseTitle={'ReactJS'}
+        imgSrc={"https://patterns.dev/img/reactjs/react-logo@3x.svg"}
         instructor={"Kyle Pew, Office Newb LLC"}
-        rating={4.6}
+        rating={4.9}
         noOfStudents={"(166,042)"}
-        price={"6$"} />
+        price={"9.9$"} />
       <VideoCard
         courseTitle={
-          "Cisco CCNA 200-301 – The Complete Guide to Getting Certified"
+          "NodeJS(SQL,ExpressJS)"
         }
-        imgSrc={"https://ape-360.com/wp-content/uploads/2019/07/CCNA-200-301.jpg"}
+        imgSrc={"https://resources.stdio.vn/content/article/gioi-thieu-va-cai-dat-node-js/thumbnail-hd/blob-1599795169826@1280x720.jpg"}
         instructor={"Neil Anderson"}
         rating={4.8}
         noOfStudents={"(25,489)"}
-        price={"12$"}
+        price={"9.8$"}
       />
       <VideoCard
         courseTitle={
-          "Advanced CSS and Sass: Flexbox, Grid, Animations and More!"
+          "SCSS"
         }
         imgSrc={"https://codelearn.io/Upload/Blog/giai-cuu-dong-do-nat-css-voi-phuong-phap-sass-63723033229.8101.jpg"}
         instructor={"Jonas Schmedtmann"}
         rating={4.8}
         noOfStudents={"(25,064)"}
-        price={"8$"}
+        price={"9.7$"}
       />
     </div>
   )

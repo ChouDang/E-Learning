@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles/Feature1.scss"
-import { ApartmentOutlined } from '@ant-design/icons';
+import { ApartmentOutlined, CustomerServiceOutlined, DashboardOutlined } from '@ant-design/icons';
 import { FeatureCard } from './FeatureCard'
 export const Feature1 = () => {
   return (
@@ -11,12 +11,12 @@ export const Feature1 = () => {
         para={"Tận hưởng nhiều chủ đề mới"}
       />
       <FeatureCard
-        icon={<ApartmentOutlined className="icon" />}
+        icon={<CustomerServiceOutlined className="icon" />}
         heading={"Hướng dẫn của chuyên gia"}
         para={"Tìm người hướng dẫn phù hợp với bạn"}
       />
       <FeatureCard
-        icon={<ApartmentOutlined className="icon" />}
+        icon={<DashboardOutlined className="icon" />}
         heading={"Truy cập mọi nơi"}
         para={"Học theo lịch trình của bạn"}
       />

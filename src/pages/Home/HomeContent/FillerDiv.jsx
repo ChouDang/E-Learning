@@ -4,9 +4,9 @@ export const FillerDiv = () => {
   return (
     <div className="fillerDiv">
       <div className="aboutFiller">
-        <h2>Get personal learning recommendations</h2>
-        <p>Answer a few questions for your top picks</p>
-        <div className="getstartedButton">Get Started</div>
+        <h2>Nhận các đề xuất học tập cá nhân</h2>
+        <p>Trả lời một số câu hỏi cho các lựa chọn của bạn</p>
+        <button className="getstartedButton">Đăng ký ngay</button>
       </div>
     </div>
   )

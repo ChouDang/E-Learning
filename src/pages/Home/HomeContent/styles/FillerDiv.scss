@@ -6,7 +6,7 @@
   align-items: center;
   background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg)
     repeat-x #6e1a52;
-
+  text-align: center;
   background-size: auto 120%;
   padding: 30px 0px;
   .aboutFiller {
@@ -27,11 +27,11 @@
     margin-bottom: 18px;
   }
   .getstartedButton {
-    border: 1px solid white;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
     padding: 13px 13px;
     cursor: pointer;
+    background-color: #0f7c90;
   }
 }
