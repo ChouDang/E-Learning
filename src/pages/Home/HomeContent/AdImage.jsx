@@ -1,30 +1,61 @@
 import React from 'react'
+import { Button } from 'antd';
+import { Carousel } from 'antd';
 import "./styles/AdImage.scss"
+import { Fragment } from 'react';
+import Slider from "react-slick";
+import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons';
+
+
+const contentStyle = {
+  height: '400px',
+  textAlign: 'center',
+};
+let styleMain = {
+
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1
+
+}
 
 export const AdImage = () => {
   return (
-    <div className="adImageDiv">
-      <div className="offerDiv">
-        <h2>Learn on your schedule</h2>
-        <p>
-          Study any topic, anytime. Explore thousands of courses starting at
-          455$ each.
-        </p>
-        <div className="searchBarDiv">
-          <input
-            className="searchBar"
-            placeholder="What do you want to learn?"
-          ></input>
-          <div className="searchIconDiv">
-            <p className="searchIcon">icon</p>
+    <Fragment>
+      <Slider autoplay {...styleMain}>
+
+        <div className="adImange-content">
+
+          <div style={contentStyle} className="adImange-content1">
+
+            <div className="adImange-content1-offerDiv">
+              <h1>NÂNG CAO KỸ NĂNG VỚI NHỮNG KHOÁ HỌC TỐT NHẤT!</h1>
+              <p>Bước đầu đến với chuyến hành trình thành công.</p>
+            </div>
+
           </div>
         </div>
-      </div>
-      <img
-        className="adImage"
-        src="https://img-b.udemycdn.com/notices/featured_banner/image_udlite/14490e9f-45d2-4095-8c5f-5fc05fe8dc84.jpg"
-        alt="AdImage"
-      />
-    </div>
+
+        <div className="adImange-content2">
+          <div style={contentStyle} className="adImange-content2-bg">
+
+            <div className="adImange-content2-offerDiv">
+              <h1>KHAI PHÁ SỨC MẠNH CỦA BẠN</h1>
+              <p>Udemy Business được tin cậy bởi 10.5K + công ty trên khắp thế giới. Tìm hiểu những gì chúng tôi có thể làm cho bạn.</p>
+              <div className="adImange-content2-BarDiv">
+                <Button className="adImange-content2-BarDiv-button">Sẵn sàng chưa?</Button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </Slider>
+
+
+
+
+    </Fragment>
   )
 }

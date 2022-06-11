@@ -1,50 +1,79 @@
-.adImageDiv {
-  position: relative;
-  .offerDiv {
-    color: #3c3b37;
-    position: absolute;
-    width: 420px;
-    height: 240px;
-    background-color: white;
-    top: 80px;
-    left: 15%;
-    border-radius: 2px;
-    box-shadow: 0px 1px 4px rgb(168, 166, 166);
-    padding: 15px 20px;
-    text-align: left;
-    h2 {
-      font-size: 46px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 19px;
-    }
-  }
-  .searchBarDiv {
-    margin: 15px 0px;
-    height: 50px;
+
+
+.adImange-content {
+  background-image: url("https://img-c.udemycdn.com/notices/web_banner/slide_2_image_udlite/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .adImange-content1 {
+    width: 40%;
     position: relative;
+
+    .adImange-content1-offerDiv {
+      position: absolute;
+      height: 240px;
+      background: white;
+      left: 30%;
+      bottom: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      h1 {
+        font-size: 24px;
+        margin: 16px 0;
+      }
+      p {
+        font-size: 16px;
+        margin: 16px 0;
+      }
+    }
   }
-  .searchBar {
-    width: 90%;
-    height: 100%;
-    padding-left: 15px;
-    font-size: 16px;
-    border: 1px #807f7d solid;
-    border-radius: 5px;
-  }
-  .searchIconDiv {
-    position: absolute;
-    height: 100%;
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0px;
-    cursor: pointer;
-    right: 20px;
-  }
-  .searchIcon {
-    color: #73726c;
+}
+
+.adImange-content2 {
+  background: url("https://wowslider.com/sliders/demo-77/data1/images/road220058.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .adImange-content2-bg {
+    width: 40%;
+    position: relative;
+
+    .adImange-content2-offerDiv {
+      position: absolute;
+      height: 240px;
+      background: white;
+      left: 30%;
+      bottom: 20%;
+
+      h1 {
+        font-size: 24px;
+        margin: 16px 0;
+      }
+      p {
+        font-size: 16px;
+        margin: 16px 0;
+        padding: 8px;
+      }
+      .adImange-content2-BarDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .adImange-content2-BarDiv-button {
+          background-color: #0f7c90;
+          color: white;
+          border-color: #0f7c90;
+          border-radius: 5px;
+          font-size: 16px;
+          font-weight: bold;
+          border: 1px solid;
+          height: 48px;
+          width: 148px;
+          cursor: pointer;
+        }
+      }
+    }
   }
 }

@@ -8,26 +8,30 @@
   font-size: 14px;
   letter-spacing: normal;
   box-shadow: 0px 1px 6px rgb(199, 198, 198);
+
   .logo {
     height: 32px;
     width: 110px;
   }
+
   .udemyLogo {
     height: 100%;
     display: flex;
     align-items: center;
     cursor: pointer;
   }
+
   .part {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .part * {
-    margin: 0px 8px;
+    margin: 0 8px;
   }
+
   .mid {
-    width: 55%;
+    width: 44%;
     position: relative;
   }
   .searchBar {
@@ -59,6 +63,10 @@
     align-items: center;
     cursor: pointer;
   }
+  .cartDiv {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
   .login {
     background-color: white;
     color: #0f7c90;
@@ -84,10 +92,11 @@
   .icon:hover {
     color: #0f7c90;
   }
-  span {
+  h1 {
     cursor: pointer;
+    font-size: 16px;
   }
-  span:hover {
+  h1:hover {
     color: #0f7c90;
   }
 }
