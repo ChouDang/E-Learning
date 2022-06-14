@@ -6,7 +6,7 @@ import "./styles/TopCategories.scss"
 
 export const TopCategories = () => {
   return (
-    <div className="topCategories">
+    <div className="topCategories" id="topCategories">
       <h2 className="categoryHeading">Danh mục hàng đầu</h2>
       <div className="categories">
         <CategoryCard

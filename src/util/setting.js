@@ -16,7 +16,12 @@ export const http = axios.create({
 http.interceptors.request.use((config) => {
   config.headers = {
     ...config.headers,
-    'Authorization': 'Bearer ' + localStorage.getItem(Token),
+    Authorization: localStorage.getItem("UserClient")
+      ? `Bearer ${JSON.parse(localStorage.getItem("UserClient")).accessToken}`
+      : localStorage.getItem("AdminClient")
+        ? `Bearer ${JSON.parse(localStorage.getItem("AdminClient")).accessToken}`
+        : "",
+    // 'Authorization': 'Bearer ' + localStorage.getItem(Token),
     'TokenCybersoft': TokenByClass
   }
   return config
@@ -26,16 +31,16 @@ http.interceptors.request.use((config) => {
 
 
 http.interceptors.response.use(
-  (response) =>{
+  (response) => {
     // Xử lý kết quả trả về từ server
     return response
-     
+
   },
   // Xử lý nếu kết quả trả về bị lỗi
-  (error) =>{
-    if(error.status === 401){
+  (error) => {
+    if (error.status === 401) {
       // Xử lý log out: clear Storage, đẩy người dùng vào trang login
-      
+
     }
     return Promise.reject(error)
   }

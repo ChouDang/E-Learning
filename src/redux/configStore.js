@@ -1,11 +1,24 @@
-import QuanLyKhoaHocReducer from './reducers/QuanLyKhoaHocReducer.jsx';
-import QuanLyNguoiDungReducer from "./reducers/QuanLyNguoiDungReducer.jsx"
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import reduxThunk from 'redux-thunk';
-
+import { chiTietKhoaHocReducer, danhMucKhoaHocReduce, danhSachKhoaHocReducer, themKhoaHocReducer, dangKyKhoaHocReducer } from "./reducers/KhoaHocReduce.jsx"
+import { dangNhapReducer, dangKyReducer, thongTinNguoiDungReducer } from "./reducers/UserReduce"
+import { adminUserReducer, dangKyModalReducer, adminDanhSachKhoaHocReducer } from "./reducers/AdminReduce"
 const rootReducer = combineReducers({
-  QuanLyNguoiDungReducer,
-  QuanLyKhoaHocReducer
+  //Child Reducer 
+  // Khóa học
+  danhMucKhoaHocReduce,
+  danhSachKhoaHocReducer,
+  chiTietKhoaHocReducer,
+  themKhoaHocReducer,
+  dangKyKhoaHocReducer,
+  // User
+  dangNhapReducer,
+  dangKyReducer,
+  thongTinNguoiDungReducer,
+  //Admin reducer
+  adminUserReducer,
+  dangKyModalReducer,
+  adminDanhSachKhoaHocReducer,
 });
 
 

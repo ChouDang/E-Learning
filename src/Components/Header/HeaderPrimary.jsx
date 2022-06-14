@@ -1,18 +1,24 @@
 import React from 'react'
 import { SearchOutlined, ShoppingCartOutlined } from '@ant-design/icons';
-import { Space } from 'antd';
+import { Badge } from "antd";
 import './headerPrimary.scss'
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 export const HeaderPrimary = () => {
+
+  const themKhoaHocReducer = useSelector((state) => state.themKhoaHocReducer);
+  const { courseListInCart } = themKhoaHocReducer;
+
   return (
     <div>
+      <div className="headerline"></div>
 
       <div className="headerPrimary">
         <div className="left part">
           <div className="udemyLogo">
-            <img src="..//logoTNT.png" className="logo" alt="logo"></img>
-          </div>
-          <div className="categoriesDiv">
-            <h1 className="categories">Danh mục</h1>
+            <Link to="/">
+              <img src="..//logoTNT.png" className="logo" alt="logo"></img>
+            </Link>
           </div>
         </div>
         <div className="mid part">
@@ -23,16 +29,24 @@ export const HeaderPrimary = () => {
         </div>
         <div className="right part">
           <div className="businessDiv">
-            <h1 className="business">Khóa học</h1>
+            <a href="#topCategories"><h1 className="business">Danh Mục</h1></a>
           </div>
           <div className="teachDiv">
-            <h1 className="teach">Thông tin</h1>
+            <Link to="./info" ><h1 className="teach">Thông tin</h1></Link>
           </div>
           <div className="cartDiv">
-            <ShoppingCartOutlined />
+            <Link to="/cart">
+              <Badge
+                style={{ backgroundColor: "#FF9F3E" }}
+                title="Your Cart"
+                count={courseListInCart.length}
+                showZero
+              >
+                <ShoppingCartOutlined className='icon-custom' size="50" />
+              </Badge>
+            </Link>
           </div>
-          <div className="login button">Đăng nhập</div>
-          <div className="signup button">Đăng ký</div>
+          <Link to="/login" ><div className="login button">Đăng nhập</div></Link>
         </div>
       </div>
     </div >
