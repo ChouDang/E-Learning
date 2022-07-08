@@ -7,11 +7,11 @@ Link Excel phân chia công việc:
 Build Project structure//-- Route Admin/Client, rootReducer
 Home Template//-- Trang chủ, Thông tin, Header, Footer, Modal
 Login Template//-- Đăng nhập, Đăng ký, Validation,
-Admin Template//-- Admin page, Quản Lý Khóa Học , Quản Lý Người Dùng (Thêm/ Sửa/ Xoá/ Tìm Kiếm)
+Admin Template//-- Admin page, Quản Lý Người Dùng (Thêm/ Sửa/ Xoá/ Tìm Kiếm)
 
 Nguyễn Thành Nhân
 
 Lý Quốc Thạnh
 
 Home Template//-- UserProfile 404PageNotFind
-Admin Template//-- AdminCourses/_Components/RegisterModal
+Admin Template//-- Quản lý Khóa Học, Modal, Search
