@@ -77,3 +77,19 @@
     }
   }
 }
+
+
+@media screen and (max-width: 700px) {
+  .adImange-content,
+  .adImange-content2{
+    background-position: center;
+    background-size: cover;
+  }
+
+  .adImange-content1-offerDiv,
+  .adImange-content2-offerDiv{
+    width: 340px;
+  }
+
+
+}

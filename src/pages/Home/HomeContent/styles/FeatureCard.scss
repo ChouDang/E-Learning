@@ -1,5 +1,5 @@
 .featureCard {
-  width: 300px;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,5 +32,13 @@
   p {
     color: #494843;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .aboutDiv h4,
+  .aboutDiv p{
+    font-size: medium;
+    width: 100px;
   }
 }

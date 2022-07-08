@@ -1,0 +1,15 @@
+.coursecard {
+  .card-course {
+    height: 360px;
+    width: 360px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: left;
+    cursor: pointer;
+  }
+  .card-course:hover {
+    border: 1px solid blueviolet;
+    box-shadow: 0 5px 15px 15px lightblue;
+  }
+}

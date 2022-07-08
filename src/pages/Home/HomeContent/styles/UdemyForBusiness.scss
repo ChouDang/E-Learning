@@ -61,3 +61,18 @@
     }
   }
 }
+
+
+@media screen and (max-width:700px) {
+  .udemyForBusiness .Img {
+    width: 45%;
+  }
+  .udemyForBusiness .contentDiv {
+    margin-left: 16px;
+  }
+  
+  .udemyForBusiness .contentDiv .about {
+    font-size: large;
+  }
+  
+}

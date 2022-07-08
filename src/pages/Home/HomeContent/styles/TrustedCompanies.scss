@@ -38,3 +38,19 @@
     }
   }
 }
+
+@media screen and (max-width:700px) {
+  .trustedCompanies .heading {
+    font-size: large;
+    margin-bottom: 10px;
+  }
+
+  .trustedCompanies .companiesLogos {
+    padding: 10px 10px;
+    height: 70px;
+    width: 100%;
+  }
+  .companiesLogos img {
+    margin:  0 6px;
+  }
+}

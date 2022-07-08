@@ -8,7 +8,7 @@ import { Recommendations } from './HomeContent/Recommendations'
 import { TopCategories } from './HomeContent/TopCategories'
 import { TrustedCompanies } from './HomeContent/TrustedCompanies'
 import { UdemyForBusiness } from './HomeContent/UdemyForBusiness'
-import { VideoAdDiv } from './HomeContent/VideoAdDiv'
+
 
 
 export default function Home(props) {
@@ -23,7 +23,6 @@ export default function Home(props) {
       <BecomeInstructor />
       <TrustedCompanies />
       <UdemyForBusiness />
-      <VideoAdDiv />
     </Fragment>
   )
 }

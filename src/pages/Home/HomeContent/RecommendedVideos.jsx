@@ -30,6 +30,7 @@ export const RecommendedVideos = () => {
         noOfStudents={"(25,064)"}
         price={"9.7$"}
       />
+
     </div>
   )
 }

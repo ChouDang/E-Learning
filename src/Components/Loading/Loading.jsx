@@ -15,10 +15,9 @@ const antIcon = (
 
 export default function Loading() {
   return (
-    <>
-      <div className="display-flex">
-        <Spin indicator={antIcon} />
-      </div>
-    </>
+    <div style={{ display: "flex" }}>
+      <Spin indicator={antIcon} />
+    </div>
+
   )
 }

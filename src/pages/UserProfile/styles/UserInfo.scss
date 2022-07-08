@@ -1,0 +1,36 @@
+.userInfo-item {
+  display: flex;
+  text-align: center;
+  margin: 8px 0;
+  p {
+    margin-top: 8px;
+    width: 100px;
+    text-align: left;
+  }
+  .userInfo-item-input {
+    width: 520px;
+  }
+}
+
+.userInfo-btn {
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid;
+  height: 36px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white;
+  color: #0f7c90;
+  border-color: #0f7c90;
+}
+.button:hover {
+  color: #054f5c;
+  border-color: #054f5c;
+}

@@ -16,7 +16,7 @@
 .headerPrimary {
   color: #3c3b37;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 72px;
   padding: 0px 10px;
@@ -116,5 +116,36 @@
   }
   h1:hover {
     color: #0f7c90;
+  }
+}
+
+.userControll {
+  display: flex;
+}
+
+.userImg {
+  font-size: 24px;
+  display: flex;
+}
+
+.userImg-title {
+  cursor: pointer;
+  font-size: 16px;
+}
+a {
+  display: flex;
+}
+.userLogout {
+  font-size: 24px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  .businessDiv,
+  .teachDiv {
+    width: 120px;
   }
 }

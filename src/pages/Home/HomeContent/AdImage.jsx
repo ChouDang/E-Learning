@@ -8,7 +8,7 @@ import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons';
 
 
 const contentStyle = {
-  height: '400px',
+  height: '450px',
   textAlign: 'center',
 };
 const styleMain = {

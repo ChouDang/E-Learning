@@ -1,0 +1,80 @@
+.register {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+
+  .register-layout {
+    height: 620px;
+    background-color: rgb(166, 180, 226);
+    z-index: 10;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin: 10rem 3rem;
+    padding: 24px;
+    max-width: 444px;
+    width: 444px;
+    position: relative;
+
+    .register-layout-content {
+      .register-layout-content-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 1.25rem;
+        line-height: 1;
+        border-radius: 50%;
+        overflow: hidden;
+        color: #fff;
+        margin: 8px;
+        background-color: #1890ff;
+        right: 50%;
+        transform: translateX(50%);
+        position: absolute;
+        top: 5%;
+
+        .register-form-layout-icon {
+          font-size: 40px;
+          color: white;
+        }
+      }
+
+      .register-layout-content-title {
+        margin-top: 80px;
+        text-align: center;
+      }
+
+      .form-layout {
+        .form-layout-content {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+
+          .form-layout-content-item {
+            width: 100%;
+            height: 60px;
+            .form-layout-content-item-input {
+              width: 100%;
+              height: 36px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.register-layout-content-button {
+  width: 100%;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,24 @@
+.sliderLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("https://as2.ftcdn.net/v2/jpg/02/10/93/59/1000_F_210935974_SHJluj3Zy1EL5v18KIwomNGVRo2PYwbq.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 5% 0 10% 0;
+}
+.sliderLogin::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(148.25deg #a253d8 3% #1545cb 89.85%);
+  opacity: 0.7;
+}
