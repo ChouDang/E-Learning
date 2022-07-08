@@ -4,18 +4,18 @@ Link Excel phân chia công việc:
 
 Đặng Hoài Trọng
 
-Build Project structure//-- Route Admin/Client, rootReducer
+1. Build Project structure//-- Route Admin/Client, rootReducer
 
-Home Template//-- Trang chủ, Thông tin, Header, Footer, Modal
+2. Home Template//-- Trang chủ, Thông tin, Header, Footer, Modal
 
-Login Template//-- Đăng nhập, Đăng ký, Validation
+3. Login Template//-- Đăng nhập, Đăng ký, Validation
 
-Admin Template//-- Admin page, Quản Lý Người Dùng (Thêm/ Sửa/ Xoá/ Tìm Kiếm)
-
-Nguyễn Thành Nhân
+4. Admin Template//-- Admin page, Quản Lý Người Dùng (Thêm/ Sửa/ Xoá/ Tìm Kiếm)
 
 Lý Quốc Thạnh
 
-Home Template//-- UserProfile 404PageNotFind
+1. Home Template//-- UserProfile 404PageNotFind
 
-Admin Template//-- Quản lý Khóa Học, Modal, Search
+2. Admin Template//-- Quản lý Khóa Học, Modal, Search
+
+Nguyễn Thành Nhân 
