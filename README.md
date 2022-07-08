@@ -1,6 +1,6 @@
 Mô tả công việc:
 
-Link Excel phân chia công việc: 
+Link Excel phân chia công việc: https://docs.google.com/spreadsheets/d/1wK9Sl4UlmogpdTpu1IKG3sZoS27eRr_Fb_dq1kmdiz8/edit?usp=sharing
 
 Đặng Hoài Trọng
 
@@ -19,3 +19,5 @@ Lý Quốc Thạnh
 2. Admin Template//-- Quản lý Khóa Học, Modal, Search
 
 Nguyễn Thành Nhân 
+
+
