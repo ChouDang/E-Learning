@@ -29,7 +29,7 @@ const AdminUsers = () => {
 
     const handleOnChange = (event) => {
         let { value } = event.target;
-        console.log(value);
+
         // dispatch(actGetKeyword(value));
     };
 
@@ -41,7 +41,7 @@ const AdminUsers = () => {
 
 
     const handleOnSearch = (value) => {
-        console.log(value)
+
         dispatch(actGetKeyword(value));
     }
 

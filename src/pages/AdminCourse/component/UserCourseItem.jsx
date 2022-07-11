@@ -60,7 +60,7 @@ const UserCourseItem = (props) => {
                         if (
                             window.confirm("Bạn có muốn xoá khóa học " + dataSource.maKhoaHoc)
                         ) {
-                            handleDeleteCourse(dataSource.taiKhoan);
+                            handleDeleteCourse(dataSource.maKhoaHoc);
                         }
                     }}>Xóa</button>
                 <Link className="btn btn-success mr-1" to="/admincourse/update">Sửa</Link>
@@ -107,7 +107,6 @@ const UserCourseItem = (props) => {
         });
     });
 
-    console.log(users)
 
     return (
         <Fragment>
