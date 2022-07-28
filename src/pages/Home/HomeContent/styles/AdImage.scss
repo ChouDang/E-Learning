@@ -79,6 +79,11 @@
 }
 
 
+.slick-arrow{
+  display: none !important; 
+}
+
+
 @media screen and (max-width: 700px) {
   .adImange-content,
   .adImange-content2{
@@ -90,6 +95,4 @@
   .adImange-content2-offerDiv{
     width: 340px;
   }
-
-
 }

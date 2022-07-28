@@ -4,7 +4,7 @@ import { Carousel } from 'antd';
 import "./styles/AdImage.scss"
 import { Fragment } from 'react';
 import Slider from "react-slick";
-import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons';
+
 
 
 const contentStyle = {
